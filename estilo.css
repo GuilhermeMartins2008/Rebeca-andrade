@@ -1,0 +1,62 @@
+@font-face {
+    font-family: fonte romana;
+    src: url("fonte/roman_sd/Roman\ SD.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fonte romana;
+}
+
+/*area header*/
+nav{
+    background-color: black;
+}
+
+/*detalhes dourados header*/
+.dourado{
+    background-color: #D5C27B;
+    height: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+.menu img{
+    margin-right: ;
+}
+
+
+.container{
+    object-fit: cover;
+    overflow: hidden;
+    max-width: 900px;
+    height: auto;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    align-items: baseline;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav li a:hover{
+    background-color: #D5C27B;
+}
+
+textarea{
+    resize: none;
+}
+
+
