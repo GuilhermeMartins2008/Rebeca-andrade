@@ -26,11 +26,9 @@ nav{
     align-items: center;
 }
 
-
-.menu img{
-    margin-right: ;
+body{
+    width: 900px;
 }
-
 
 .container{
     object-fit: cover;
@@ -58,5 +56,123 @@ nav li a:hover{
 textarea{
     resize: none;
 }
+.form {
+    display: absolute;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title-form {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D5C27B;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #D5C27B;
+  }
+  
+  .textarea .input {
+    height: 100px;
+    width: 100%;
+    resize: none;
+  }
+  
+  label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999999;
+    font-size: 16px;
+    transition: 0.2s;
+    pointer-events: none;
+  }
+  
+  .input + label {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 12px;
+    color: #D5C27B;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #D5C27B;
+  }
+  
+  .btn[type="submit"] {
+    background-color: #D5C27B;
+    color: white;
+  }
+  
+  .btn[type="reset"] {
+    background-color: #d7c378;
+    color: white;
+  }
+  
+  .confirmar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .confirmar h1 {
+    margin: 181px 0 81px 0;
+    text-align: center;
+  }
+
+@media screen and (min-width:414px) and (max-width:869px){
+    body, div{}
+  #footer { margin-left:0px;}
+  }
+
+@media screen and (min-width:768px) and (max-width:1024px){/*ipad*/
+    body, div{}
+    #footer { margin-left:0px;}      
+  }    
+
+@media screen and (min-width:820px) and (max-width:1190px){
+    body, div{}
+  #footer { margin-left:9px;}
+  }
+   
 
 
